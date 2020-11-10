@@ -24,7 +24,7 @@ namespace Scooter_Rental_Progect
             this.name = name;
             this.priceRent = priceRent;
             this.type = type;
-            
+
         }
         /// <summary>
         /// Аренда скутера Сузуки
