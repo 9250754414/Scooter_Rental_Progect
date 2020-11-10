@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Scooter_Rental_Progect
 {
     public class Scooter
-    {
+    { 
         string name;
         double priceRent;
         public ScooterType type;

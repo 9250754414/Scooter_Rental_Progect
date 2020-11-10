@@ -13,11 +13,11 @@ namespace Scooter_Rental_Progect
         static TextWriter textWriter;
         /// <summary>
         /// Инициализация фейкового объекта, который не будет связан с файловой системой
-        /// </summary>
+        /// </summary> 
         /// <param name="MockWriter">Фейковый(Mock) объект</param>
         public static void SetTextWriter(TextWriter mockObject)
         {
-            textWriter = mockObject;
+            textWriter = mockObject; 
         }
         /// <summary>
         /// Создание нового потока для записи. Если это фейковый объект для тестирования

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Scooter_Rental_Progect
 {
     public class Rental
-    {
+    { 
         public Scooter scooter;
         int days;
         /// <summary>

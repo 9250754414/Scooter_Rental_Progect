@@ -17,7 +17,7 @@ namespace Test_Scooter_Rental_Progect
             Rental rental = new Rental(Scooter.Honda("RX80"), 6);
             Assert.AreEqual(rental.CalculateDept(), 42);
         }
-        [Test]
+        [Test] 
         public void Test_AddRentalDays()
         {
             Rental rental = new Rental(Scooter.Honda("RX80"), 3);

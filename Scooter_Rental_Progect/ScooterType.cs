@@ -8,7 +8,7 @@ namespace Scooter_Rental_Progect
 {
     public enum ScooterType
     {
-        Suzuki,
+        Suzuki, 
         Honda,
         Yamaha,
         BMW

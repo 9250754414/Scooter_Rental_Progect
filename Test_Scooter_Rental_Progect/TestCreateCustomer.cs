@@ -17,7 +17,7 @@ namespace Test_Scooter_Rental_Progect
             Customer customer = new Customer("Nick");
             customer.Rentals.Add(new Rental(Scooter.BMW("RX250"), 4));
             customer.Rentals.Add(new Rental(Scooter.Honda("M80"), 3));
-            Assert.AreEqual(customer.CalculateDept(), 12 * 4 + 7 * 3);
+            Assert.AreEqual(customer.CalculateDept(), 12 * 4 + 7 * 3); 
         }
     }
 }

@@ -33,7 +33,7 @@ namespace Test_Scooter_Rental_Progect
 
             }
             Customer customer = new Customer("TestCustomer");
-            customer.Rentals.Add(new Rental(Scooter.Honda("TestName"), 6));
+            customer.Rentals.Add(new Rental(Scooter.Honda("TestName"), 6)); 
             ReportManager.CreateSimpleReport("SomePath", customer);
             mockRepository.VerifyAll();
 

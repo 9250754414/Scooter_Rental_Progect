@@ -9,7 +9,7 @@ namespace Scooter_Rental_Progect
 {
     public static class ReportManager
     {
-        /// <summary>
+        /// <summary> 
         /// Метод создания отчета об аренде для соответсвующего клиента, запись данных в файл
         /// </summary>
         /// <param name="path">Путь к файлу</param>
